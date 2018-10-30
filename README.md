@@ -1,6 +1,6 @@
 # README
 
-This app allows user to create a form mentioning 3 parameters: username, email and bio.
+This app allows user to create a form with 3 parameters: username, email and bio.
 
 This app makes us work on various forms: HTML form, Form_tag, Form_for.
 

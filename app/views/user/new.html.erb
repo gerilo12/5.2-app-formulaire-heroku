@@ -1,3 +1,4 @@
+<h2>Un form trop bg</h2>
 <div style="width:300px; margin:20px">
   <p id="form-1">
     
@@ -18,4 +19,30 @@
     <button type="submit" class="btn btn-primary">Submit</button>
   </form>
   </p>
+</div>
+
+    <!-- ... -->
+<div>
+  <br /> <br />
+  <h2>Un form cheum à donf</h2>
+
+    <%= form_tag url_for(action: 'create'), method: "post" do %>
+
+      <%= label_tag 'Username' %>
+      <%= text_field_tag 'username'%>
+      <br /> <br />
+
+      <%= label_tag 'Email' %>
+      <%= text_field_tag 'email'%>
+      <br /> <br />
+
+      <%= label_tag 'Bio' %>
+      <%= text_field_tag 'bio'%>
+      <br /> <br />
+
+      <%= submit_tag "Create User" %>
+
+    <% end %>
+
+    <!-- ... -->
 </div>
